@@ -15,7 +15,6 @@
 #include <string>
 #include <ctime>
 
-// Hjälpfunktion: tolka datumsträng "YYYY-MM-DD" till time_point
 std::optional<std::chrono::system_clock::time_point>
 parseDate(const std::string& dateStr) {
     if (dateStr.size() != 10) {
